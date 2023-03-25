@@ -1,0 +1,44 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+} */
+
+
+.calendar-container-wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    place-items: center;
+}
+
+.calendar-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.date-container {
+    width: 1rem;
+    height: 1rem;
+    /* border: 1px solid wheat; */
+    padding: 1rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+.date-container:hover {
+    scale: 1.2;
+    background-color: gainsboro;
+}
+
+.active {
+    background-color: rgb(239, 239, 239);
+}
+
+.remove-border {
+    border: none;
+    pointer-events: none;
+}

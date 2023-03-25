@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #1e1e1e;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+
+
+.App {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.button {
+    border: none;
+    padding: 0.5rem 0.7rem;
+    margin-left: 0.7rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkseagreen;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+
+.form-field {
+    border: 1px solid rgba(165, 205, 212, 0.731);
+    padding: 0.5rem 0.7rem;
+}
+
+.form-field:hover {
+    scale: 1.2;
+    transition: all 0.2s ease-in;
+
+}
